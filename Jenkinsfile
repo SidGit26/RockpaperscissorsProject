@@ -1,6 +1,6 @@
-pipeline(
-  agent any(
-    stages(
+pipeline{
+  agent any{
+    stages{
       stage('SCM') {
         checkout scm
       }
